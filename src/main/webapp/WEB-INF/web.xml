@@ -5,24 +5,13 @@
                   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <!-- http://localhost:8080/my-application/hello?a=1&b=2&c=3-->
+    <!--http://localhost:8080/MyHttpServlet/hello?a=1&b=2&c=3-->
 
-    <!--    <servlet>-->
-    <!--        <servlet-name>my-application</servlet-name>-->
-    <!--        <servlet-class>MyServlet</servlet-class>-->
-    <!--    </servlet>-->
-
-    <!--    <servlet-mapping>-->
-    <!--        <servlet-name>my-application</servlet-name>-->
-    <!--        <url-pattern>/hello</url-pattern>-->
-    <!--    </servlet-mapping>-->
 
     <servlet>
         <servlet-name>MyHttpServlet</servlet-name>
         <servlet-class>MyHttpServlet</servlet-class>
-
     </servlet>
-
     <servlet-mapping>
         <servlet-name>MyHttpServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
